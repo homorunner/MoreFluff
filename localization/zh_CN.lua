@@ -97,8 +97,8 @@ return {
       },
       j_mf_hollow = {
         name = "空心小丑",
-        text = {"{C:attention}+#1#{}手牌大小", "每手牌的数量低于{C:attention}#3#{}时，",
-            "获得{C:mult}+#2#{}倍率"}
+        text = {"{C:attention}#1#{}手牌大小", "手牌的数量每比{C:attention}#3#{}张少一张，",
+            "就获得{C:mult}+#2#{}倍率"}
       },
       j_mf_hugejoker = {
         name = "巨型小丑",
