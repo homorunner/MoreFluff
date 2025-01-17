@@ -18,7 +18,7 @@ return {
       },
       j_mf_blasphemy = {
         name = "亵渎",
-        text = {"{X:red,C:white} X#1# {} 倍率", "每次出牌后 {C:blue}-#2#{} 手牌大小"}
+        text = {"{X:red,C:white} X#1# {} 倍率", "每次出牌后 {C:blue}-#2#{} 出牌次数"}
       },
       j_mf_bloodpact = {
         name = "血契",
@@ -64,7 +64,7 @@ return {
       },
       j_mf_dropkick = {
         name = "倒挂金钩",
-        text = {"当手牌包含{C:attention}顺子{}时", "获得{C:blue}+#1#{}手牌大小"}
+        text = {"当手牌包含{C:attention}顺子{}时", "获得{C:blue}+#1#{}出牌次数"}
       },
       j_mf_expansion_pack = {
         name = "补充包",
@@ -97,7 +97,7 @@ return {
       },
       j_mf_hollow = {
         name = "空心小丑",
-        text = {"{C:attention}#1#{}手牌大小", "每手牌大小低于{C:attention}#3#{}时，",
+        text = {"{C:attention}+#1#{}手牌大小", "每手牌的数量低于{C:attention}#3#{}时，",
             "获得{C:mult}+#2#{}倍率"}
       },
       j_mf_hugejoker = {
@@ -484,7 +484,7 @@ return {
       k_display_for_paul_ex = "(为保罗!)",
       k_display_steel_cards = "钢铁卡",
       k_display_per_round = "每回合",
-      k_display_lose_all_hands = "(-9999 手牌大小)",
+      k_display_lose_all_hands = "(-9999 出牌次数)",
       k_display_only_hearts = "(仅红桃!)",
       k_display_enhanced = "(增强)",
       k_display_per_voucher = "每券",
